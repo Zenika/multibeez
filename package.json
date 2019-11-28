@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "scripts": {
     "start": "node multibeez.js",
-    "dev": "nodemon multibeez.js"
+    "dev": "nodemon multibeez.js",
+    "prettier": "prettier *.{js,json}",
+    "prettier:check": "npm run prettier -- --check",
+    "prettier:write": "npm run prettier -- --write"
   },
   "devDependencies": {
     "eslint": "^6.7.1",
