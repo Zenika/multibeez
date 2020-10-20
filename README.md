@@ -2,6 +2,10 @@
 
 An HTTP server that proxies requests to Alibeez using multiple keys at once.
 
+## DEPRECATED
+
+Use [Proxybeez](https://github.com/Zenika/proxybeez) instead
+
 ## Example
 
 Hitting Multibeez with `/users?fields=firstName,lastName` with header
